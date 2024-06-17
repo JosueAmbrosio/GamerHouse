@@ -1,0 +1,9 @@
+[build]
+  base    = "shop_frontend"
+  publish = "shop_frontend/build"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
